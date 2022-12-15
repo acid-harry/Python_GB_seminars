@@ -4,11 +4,11 @@
 #- пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
 
-num = int(input('Введите число: '))
+N = int(input('Введите число: '))
 
 x = 1
-for i in range(num):
-    i = i + 14
+for i in range(N):
+    i = i + 1
     x = i * x
     
     print(x, end=" ")
